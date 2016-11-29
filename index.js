@@ -17,23 +17,22 @@ module.exports = {
   },
 
   format: function format(phoneNumber, formatString, options) {
-
     // Normalize the phone number first unless not asked to do so in the options
-    if (!options || !options.normalize) {
-      phoneNumber = this.normalize(phoneNumber)
-    };
-
+    phoneNumber = this.normalize(phoneNumber)
+    
     for ( var i = 0, l = phoneNumber.number.length; i < l; i++ ) {
       formatString = formatString.replace("N", phoneNumber.number[i]);
     }
     
-    if(phoneNumber.prefix.trim() !== '' && options.includePrefix){
-      formatString = phoneNumber.prefix.trim() +" "+formatString;
-    }
+    if (options){
+      if(phoneNumber.prefix.trim() !== '' && options.includePrefix){
+        formatString = phoneNumber.prefix.trim() +" "+formatString;
+      }
     
-    if(phoneNumber.postfix.trim() !== '' && options.includePostfix){
-      formatString = formatString + " " + phoneNumber.postfix.trim();
-    };
+      if(phoneNumber.postfix.trim() !== '' && options.includePostfix){
+        formatString = formatString + " " + phoneNumber.postfix.trim();
+      };
+    }
  
   
     return formatString;
