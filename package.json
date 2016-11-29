@@ -2,23 +2,23 @@
   "name": "phone-formatter",
   "description": "Parse and format telephone numbers.",
   "version": "0.0.2",
-  "homepage": "https://github.com/stevekinney/node-phone-formatter",
+  "homepage": "https://github.com/ramk18/node-phone-formatter",
   "author": {
-    "name": "Steve Kinney",
-    "email": "hello@stevekinney.net",
-    "url": "http://stevekinney.net"
+    "name": "Ramkumar S",
+    "email": "mail@ramk.co.in",
+    "url": "http://www.ramk.co.in"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/stevekinney/node-phone-formatter.git"
+    "url": "git://github.com/ramk18/node-phone-formatter.git"
   },
   "bugs": {
-    "url": "https://github.com/stevekinney/node-phone-formatter/issues"
+    "url": "https://github.com/ramk18/node-phone-formatter/issues"
   },
   "licenses": [
     {
       "type": "MIT",
-      "url": "https://github.com/stevekinney/phone-formatter/blob/master/LICENSE-MIT"
+      "url": "https://github.com/ramk18/phone-formatter/blob/master/LICENSE-MIT"
     }
   ],
   "main": "index.js",
