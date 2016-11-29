@@ -76,5 +76,5 @@ Right now, this library is incredibly American-centric and that kind of stinks, 
 * 0.0.1: Just two methods and some tests.
 
 ## License
-Copyright (c) 2013 Steve Kinney  
+Copyright (c) 2016 Ramkumar  
 Licensed under the MIT license.
